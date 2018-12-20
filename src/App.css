@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico); /* font-family: 'Pacifico', cursive; */
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker); /* font-family: 'Permanent Marker', cursive; */
+@import url(https://fonts.googleapis.com/css?family=Cookie); /* font-family: 'Cookie', cursive; */
+@import url(https://fonts.googleapis.com/css?family=Allura); /* font-family: 'Allura', cursive; */
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great); /* font-family: 'Fredericka the Great', cursive; */
+
+.App {
+  text-align: center;
+}
+
+.flex-display {
+ display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-no-grow {
+  flex-grow: 0;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-grow: row;
+}
+
+.basic-info tr{
+  border: 0.5px solid gainsboro;
+}
+
+.basic-info td:not(:last-child) {
+  border-right: 0.5px solid gainsboro;
+}
